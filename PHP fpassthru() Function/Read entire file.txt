@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$file = fopen("test.txt","r");
+fread($file,filesize("test.txt"));
+fclose($file);
+?>
+
+</body>
+</html>
+
+
+
+
